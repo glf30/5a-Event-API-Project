@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-You will design and build the backend for **EventHub**, a basic event management system.1
+You will design and build the backend for **EventHub**, a basic event management system.
 You will:
 
 - Design MongoDB models for key entities
