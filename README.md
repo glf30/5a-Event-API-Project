@@ -27,7 +27,7 @@ You will:
   - `price` *(number)*
   - `availableTickets` *(number)*
 - Events should support **filtering and sorting** through query parameters:
-  - Filter by category, date range, and price range
+  - Filter by category, date, and price range
   - Sort by date or price (ascending or descending)
 
 #### Example Query:
