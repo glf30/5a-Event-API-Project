@@ -67,7 +67,7 @@ GET /events?category=conference&minPrice=10&maxPrice=100&startDate=2025-01-01&so
 
 ## Project Guidelines
 
-- Structure your project using **Models**, **Routes**, and **Controllers**
+- Structure your project using **Models**, **Routes**, and **Controllers** OR **Bookings**, **Events**, and **Users** inside a routes folder.
 - Use Mongoose references to relate bookings to users and events
 - Use `.populate()` where appropriate to return related data
 
