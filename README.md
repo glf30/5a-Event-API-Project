@@ -18,7 +18,7 @@ You will:
 ### Events
 
 - CRUD operations
-- Suggested fields:
+- Fields:
   - `title` *(string)*
   - `description` *(string)*
   - `date` *(date)*
@@ -41,7 +41,7 @@ GET /events?category=conference&minPrice=10&maxPrice=100&startDate=2025-01-01&so
 ### Users
 
 - CRUD operations
-- Suggested fields:
+- Fields:
   - `name` *(string)*
   - `email` *(string)*
   - `phone` *(string)*
@@ -51,7 +51,7 @@ GET /events?category=conference&minPrice=10&maxPrice=100&startDate=2025-01-01&so
 ### Bookings
 
 - Users can book tickets for events
-- Suggested fields:
+- Fields:
   - `user` *(reference to User)*
   - `event` *(reference to Event)*
   - `quantity` *(number)*
