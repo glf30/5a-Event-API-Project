@@ -33,7 +33,7 @@ You will:
 #### Example Query:
 
 ```
-GET /events?category=conference&minPrice=10&maxPrice=100&startDate=2025-01-01&sort=-date
+GET /events?category=conference&minPrice=10&maxPrice=100&startDate=2025-01-01&sortBy=title&sortOrder=asc
 ```
 
 ---
