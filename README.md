@@ -7,7 +7,7 @@ You will:
 
 - Design MongoDB models for key entities
 - Build a RESTful API using Node.js, Express, and Mongoose
-- Implement filtering and sorting on event listings
+- Implement filtering on event listings
 - Handle relationships between collections using Mongoose references
 - Develop clean and modular code with proper error handling
 
@@ -26,14 +26,13 @@ You will:
   - `category` *(string)* *(e.g., concert, conference, workshop)*
   - `price` *(number)*
   - `availableTickets` *(number)*
-- Events should support **filtering and sorting** through query parameters:
+- Events should support **filtering** through query parameters:
   - Filter by category, date, and price range
-  - Sort by date or price (ascending or descending)
 
 #### Example Query:
 
 ```
-GET /events?category=conference&minPrice=10&maxPrice=100&date=2025-01-01&sortBy=title&sortOrder=asc
+GET /events?category=conference&minPrice=10&maxPrice=100&date=2025-01-01
 ```
 
 ---
