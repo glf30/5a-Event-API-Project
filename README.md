@@ -25,7 +25,7 @@ You will:
   - `location` *(string)*
   - `category` *(string)* *(e.g., concert, conference, workshop)*
   - `price` *(number)*
-  - `availableTickets` *(number)*
+  - `availableTickets` *(number, default value greater than 0)*
 - Events should support **filtering** through query parameters:
   - Filter by category, date, and price range
 
@@ -71,3 +71,6 @@ GET /events?category=conference&minPrice=10&maxPrice=100&date=2025-01-01
 - Use `.populate()` where appropriate to return related data
 
 ---
+
+## Stretch Goals
+- Add a `password` field to the User and use bcrypt to properly store the password in the DB.  
